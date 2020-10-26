@@ -42,8 +42,8 @@ if(IsInjected($visitor_email))
     exit;
 }
 
-$email_body = "You have received a new message from the user $name.\n"
-    "Here is the message:\n \n \n \n \n $message \n \n \r Email ID : $visitor_email"
+$email_body = "You have received a new message from the user $name.\n
+    Here is the message:\n \n \n \n \n $message \n \n \r Email ID : $visitor_email"
 
         $mail->IsHTML(true);
         $mail->From="harnoor24.21@gmail.com";
