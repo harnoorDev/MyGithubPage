@@ -51,7 +51,7 @@ $email_body = "You have received a new message from the user $name.\n".
         $mail->AddReplyTo($visitor_email, $name);
         $mail->Subject = $subject;
         $mail->Body = $email_body;
-        $mail->AddAddress('harnoor24@outlook.com');
+        $mail->AddAddress("harnoor24@outlook.com");
         if(!$mail->Send())
         {
             $error ="Please try Later, Error Occured while Processing...";
